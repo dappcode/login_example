@@ -1,0 +1,348 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a{
+    text-decoration : none;
+    color : grey;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: url('http://news.psu.edu/sites/default/files/styles/threshold-992/public/lodging%20iStock%20IPGGutenbergUKLtd.jpg?itok=CEkbUyNl') no-repeat;
+    padding: 15px;
+    padding-top: 60px;
+    background-position-y: -185px;
+    background-size: cover;
+    font-weight: 500;
+}
+
+
+.bg {
+    background-image: url('http://news.psu.edu/sites/default/files/styles/threshold-992/public/lodging%20iStock%20IPGGutenbergUKLtd.jpg?itok=CEkbUyNl');
+    background-size: cover;
+    width: 333px;
+    height: 100%;
+    float: left;
+}
+
+.content1 {
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 60%;
+    height: 500px;
+}
+
+.cont {
+    padding: 28px;
+    color: hsl(0, 0%, 100%);
+    padding-top: 145px;
+}
+
+.cont p {
+    margin-bottom: 57px;
+    font-size: 16px;
+}
+
+.sosmed {
+    background-color: #5474b7;
+    font-size: 16px;
+    color: hsl(0, 0%, 100%);
+    line-height: 20px;
+    padding: 21px;
+    border-radius: 2px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+.sosmed:hover {
+    border: none;
+    background-color: #001AFF;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px #7C7C7C;
+    font-size: 16px;
+}
+
+.fa-facebook-f:before,
+.fa-facebook:before {
+    padding-right: 10px;
+}
+
+.content {
+    float: left;
+    width: 333px;
+    height: 100%;
+    background-color: rgba(237, 117, 87, 0.69);
+}
+
+.content img {
+    width: 184px;
+    margin-bottom: 16px;
+    height: 116px;
+}
+
+.content3 {
+    float: left;
+    width: 420px;
+    background-color: white;
+    height: 100%;
+}
+
+.link2 {
+    padding: 10px;
+    padding-right: 10px;
+}
+
+.link2:hover {
+    border-bottom: 3px solid #ef7154;
+    color: black;
+}
+
+.active:visited{
+    border-bottom: 3px solid #ef7154;
+}
+
+.link2:hover a {
+    color: black;
+}
+
+.icon {
+    float: right;
+    padding: 10px;
+    font-size: 30px;
+    color: black;
+}
+
+.material-icons {
+    font-size: 30px;
+    font-weight: 600;
+    color: #373738;
+}
+
+.content3 ul li {
+    display: inline;
+    padding-bottom: 13px;
+    line-height: 40px;
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid hsl(0, 0%, 90%);
+}
+
+.content2 {
+    padding: 23px;
+    margin-left: 15px;
+    margin-top: 40px;
+}
+
+.content2 ul {
+    margin-bottom: 25px;
+}
+
+.form1 {
+    width: 345px;
+    margin-top: 20px;
+    font-size: 15px;
+    box-sizing: border-box;
+    line-height: 3;
+    padding-left: 10px;
+}
+
+label {
+    color: grey;
+    position: relative;
+    display: inline;
+    float: left;
+    font-size: 16px;
+}
+
+.passw a {
+    color: grey;
+    font-size: 16px;
+    float: right;
+    margin-top: 30px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.passw:hover a{
+    text-decoration: underline;
+    color :#ef7154;
+}
+
+.sub {
+    border: none;
+    color: hsl(0, 0%, 100%);
+    background-color: #ef7154;
+    width: 345px;
+    font-size: 23px;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 0px 2px 5px #C2C1C1;
+    padding: 19px;
+    margin-top: 32px;
+    margin-left: -150px;
+}
+
+.sub:hover {
+    border: none;
+    background-color: orangered;
+    font-size: 23px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px #7C7C7C;
+}
+
+input[type='checkbox'] {
+    height: 34px;
+    width: 23px;
+    margin-top: 20px;
+    float: left;
+    margin-left: 0;
+}
+
+.link3 {
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+label {
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: -5px;
+}
